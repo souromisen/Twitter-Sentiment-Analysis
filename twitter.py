@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 def percentage(part,whole):
 	return 100*float(part)/float(whole)
 
-consumerKey="6aPYDbMbc3h4afRCUPwLzxIeN"
-consumerSecret="ctR6dHCudnILnpmwuMJpP4le9SFVCNrB2XUhxYWXqMfSEyu97L"
-accessToken="920907944882925569-jLDhV6R31pb27sxodlOHXZX5L6Wl30F"	
-accessTokenSecret="AgxkQxVtuG8NeYrEB4rqNYkjepwN0KH6qmXiBRq3AlHqv"
+consumerKey="--------------------------"
+consumerSecret="---------------------------------------"
+accessToken="-----------------------------------------------"	
+accessTokenSecret="--------------------------------------------"
 
 auth=tweepy.OAuthHandler(consumer_key=consumerKey,consumer_secret=consumerSecret)
 auth.set_access_token(accessToken,accessTokenSecret)
